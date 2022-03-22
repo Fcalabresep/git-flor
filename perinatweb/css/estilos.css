@@ -1,0 +1,1393 @@
+
+/* COLORES
+
+BORDÓ: #83201E;
+FUCSIA: #D81A61;
+
+ */
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+img {max-width: 100%; height: auto;} 
+
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 9.411764705882353px;
+    }
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'GOTHAM-ROUNDED-BOOK', sans-serif;
+    font-size: 1.7rem;
+    font-style: normal;
+    line-height: 1.765;
+    color: #757575;
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: 'GOTHAM-ROUNDED-BOLD';
+    src:url('../fonts/GOTHAM-ROUNDED-BOLD.woff') format('woff'),
+        url('../fonts/GOTHAM-ROUNDED-BOLD.woff2') format('woff2'),
+        url('../fonts/GOTHAM-ROUNDED-BOLD.eot'),
+        url('../fonts/GOTHAM-ROUNDED-BOLD.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GOTHAM-ROUNDED-BOLD.otf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'GOTHAM-ROUNDED-BOOK';
+    src:url('../fonts/GOTHAM-ROUNDED-BOOK.woff') format('woff'),
+        url('../fonts/GOTHAM-ROUNDED-BOOK.woff2') format('woff2'),
+        url('../fonts/GOTHAM-ROUNDED-BOOK.eot'),
+        url('../fonts/GOTHAM-ROUNDED-BOOK.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GOTHAM-ROUNDED-BOOK.otf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'GOTHAM-ROUNDED-LIGHT';
+    src:url('../fonts/GOTHAM-ROUNDED-LIGHT.woff') format('woff'),
+        url('../fonts/GOTHAM-ROUNDED-LIGHT.woff2') format('woff2'),
+        url('../fonts/GOTHAM-ROUNDED-LIGHT.eot'),
+        url('../fonts/GOTHAM-ROUNDED-LIGHT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GOTHAM-ROUNDED-LIGHT.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GOTHAM-ROUNDED-MEDIUM';
+    src:url('../fonts/GOTHAM-ROUNDED-MEDIUM.woff') format('woff'),
+        url('../fonts/GOTHAM-ROUNDED-MEDIUM.woff2') format('woff2'),
+        url('../fonts/GOTHAM-ROUNDED-MEDIUM.eot'),
+        url('../fonts/GOTHAM-ROUNDED-MEDIUM.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GOTHAM-ROUNDED-MEDIUM.otf') format('truetype');
+}
+
+
+/* LINKS */
+
+a {
+    color: #0087cc;
+}
+
+a:hover, a:focus, a:active {
+    color: #39b54a;
+}
+
+a:hover, a:active {
+    outline: 0;
+}
+
+
+
+/* FONTS */
+
+h1 { 
+   font-family: 'GOTHAM-ROUNDED-BOLD', sans-serif;
+}  
+
+h2 { 
+   font-family: 'GOTHAM-ROUNDED-BOOK', sans-serif;
+}  
+
+h1, h2, h3, h4, h5, h6, 
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    
+    color: #333;
+    text-rendering: optimizeLegibility;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+h1, .h1 {
+    font-size: 3.6rem;
+    line-height: 1.25;
+}
+
+@media only screen and (max-width: 600px) {
+    h1, .h1 {
+        font-size: 3.3rem;
+    }
+}
+
+h2, .h2 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+
+h3, .h3 {
+    font-size: 2.4rem;
+    line-height: 1.25;
+}
+
+h4, .h4 {
+    font-size: 2.1rem;
+    line-height: 1.286;
+}
+
+h5, .h5 {
+    font-size: 1.6rem;
+    line-height: 1.313;
+}
+
+h6, .h6 {
+    font-size: 1.3rem;
+    line-height: 1.385;
+    text-transform: uppercase;
+    letter-spacing: .16rem;
+}
+
+
+p {
+    font-family: 'GOTHAM-ROUNDED-LIGHT', sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+strong {
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+}
+
+
+/* HEADER */
+
+.sub-header {
+    background: #444;
+    color: #FFFFFF;
+
+}
+
+.sub-header a {
+    text-decoration: none;
+}
+
+.sub-header p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.icon-header {
+    background: #FFFFFF;
+    padding: 7px 8px;
+    border-radius: 100%;
+    color: #444;
+    margin-right: 6px;
+    font-size: 1.2rem;
+}
+
+.icon-header2 {
+    background: #FFFFFF;
+    padding: 7px 9px;
+    border-radius: 100%;
+    color: #444;
+    margin-right: 6px;
+    font-size: 1.2rem;
+}
+
+/* NAV */
+
+nav {
+    background: #ffffff;
+}
+
+
+.navbar {
+    padding: 10px 0px;
+}
+
+
+
+.nav-item {
+    padding: 0px 10px;
+    
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    color: #333;
+    font-family: 'GOTHAM-ROUNDED-BOOK', sans-serif;
+    font-size: 1.3rem;
+}
+
+.nav-link {
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 3px 9px 1px 9px !important;
+}
+
+.nav-link:active {
+    border: 2px solid #83201E;
+    border-radius: 30px;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #333;
+}
+
+.nav-link:focus {
+    color: #333;
+}
+
+.redes i {
+    padding-left: 15px;
+    color: #83201E;
+    font-size: 2rem;
+}
+
+.redes i:hover {
+    color: #D81A61;
+}
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+
+
+/* TOGGLE */
+
+
+/* CARRUSEL */
+
+.carrusel {
+    padding: 0 0 4rem 0;
+}
+
+
+
+.carrusel-icon-circle {
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
+    line-height: 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    margin: 8px;
+}
+
+/* SECCIÓN NOSOTROS */
+
+.nosotros {
+    
+    padding: 0 0 6rem 0;
+}
+
+.h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'GOTHAM-ROUNDED-BOOK', sans-serif;
+    color: #333;
+    margin-bottom: 2px !important;
+}
+
+.linea-bordo {
+    width: 10%;
+    height: 12px !important;
+    color: #83201E;
+    margin-top: 0;
+    margin-left: 4px;
+    margin-bottom: 2rem;
+    opacity: 1;
+
+}
+
+.linea-bordo2 {
+    width: 25%;
+    height: 12px !important;
+    color: #83201E;
+    margin-top: 0;
+    margin-left: 4px;
+    margin-bottom: 2rem;
+    opacity: 1;
+
+}
+
+.linea-bordo3 {
+    width: 8%;
+    height: 12px !important;
+    color: #83201E;
+    margin-top: 0;
+    margin-left: 4px;
+    margin-bottom: 2rem;
+    opacity: 1;
+
+}
+
+.linea-bordo4 {
+    width: 8%;
+    height: 12px !important;
+    color: #83201E;
+    margin-top: 0;
+    margin-left: 4px;
+
+    opacity: 1;
+
+}
+
+.texto p {
+    font-family: 'GOTHAM-ROUNDED-BOOK', sans-serif;
+    font-size: 1.5rem;
+}
+
+.texto {
+    padding-bottom: 2rem;
+}
+
+.imagen-nosotros {
+    width: 20%;
+}
+
+.imagen-nosotros-valores {
+    width: 18%;
+}
+
+.grid-valores p, .grid-valores ul li {
+    font-size: 1.4rem;
+    font-family: 'GOTHAM-ROUNDED-BOOK', sans-serif;
+    color: #333;
+    line-height: 1.4;
+}
+
+.grid-valores h2 {
+
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+    color: #D81A61;
+    
+}
+
+.grid-valores ul {
+  list-style: none; 
+}
+
+.grid-valores ul li::before {
+  content: "\2022";  
+  color: #D81A61;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
+
+.listado {
+    padding: 3rem;
+}
+
+.listado ul li {
+    list-style: none;
+}
+
+.listado ul li::before {
+  content: "\2022";  
+  color: #D81A61;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
+
+.margin-column {
+    margin-right: 3.5rem;
+}
+
+
+/* SERVICIOS */
+
+.servicios {
+    padding: 4rem 0 6rem 0;
+    background: url("../img/fondoseccionserviciosyprofesionales.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.servicios p {
+    font-size: 1.3rem;
+    font-family: 'GOTHAM-ROUNDED-BOOK', sans-serif;
+    color: #333;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.espacio-btn {
+    margin-bottom: 15px;
+}
+
+.align-h1 {text-align: left; margin-left: 3rem;}
+.align-hr {
+    margin-left: 3.5rem;
+    width: 15%;
+}
+
+.espacio-hr {
+    margin-bottom: 4rem !important;
+}
+
+.linea-btn {
+    position: absolute;
+    bottom: -2rem;
+}
+
+.margen-boton {
+    margin-right: 30px;
+}
+
+.margen-boton-labo {
+    margin-right: 60px;
+}
+
+/* SECCIÓN PLANTEL */
+
+.plantel img {
+    border-radius: 100%;
+    border: 2.5px solid #D81A61;
+    width: 70%;
+}
+
+.plantel p {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+}
+
+.espacio {
+    margin-bottom: 0.4rem;
+}
+
+.descripcion {
+    font-size: 0.8rem !important;
+    color: #D81A61 !important;
+    margin-top: 0;
+}
+
+.boton-especialidades {
+    color: #D81A61;
+    font-size: 1.5rem;
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+    display: block;
+}
+
+.boton-especialidades:hover {
+    color: #83201E;
+}
+
+/* SECCIÓN PACIENTES */
+
+.pacientes {
+    padding: 6rem 0;
+}
+
+.contenedor-pacientes {
+    padding: 2rem 3rem 0 3rem;
+
+   
+}
+
+.guia-paciente {
+    width: 60%;
+}
+
+.gineco-express {
+    width: 40%;
+}
+
+.obras-sociales {
+    width: 40%;
+}
+
+.h2-pacientes {
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+
+.h2-pacientes-1 {
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    margin-top: 2.8rem;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.modal-content {
+    border-radius: 60px;
+    border: none;
+}
+
+.modal a {
+    margin: 0;
+}
+
+/* SECCIÓN TURNOS */
+
+.turnos {
+
+    padding: 6rem 0;
+    background: url("../img/fondoseccionturnos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contenedor-turnos {
+    padding-top: 2rem; 
+}
+
+.telefono-fijo {
+    width: 50%;
+}
+
+.whatsapp {
+    width: 41%;
+}
+
+.webturnos {
+    width: 50%;
+}
+
+.h2-turnos {
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    color: #D81A61;
+}
+
+.turnos-p {
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+.tel-p {
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.tel-p2 {
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.h5-turnos {
+    font-family: 'GOTHAM-ROUNDED-BOLD', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D81A61;
+}
+
+.p-horarios {
+    font-family: 'GOTHAM-ROUNDED-BOOK', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.link {
+    font-family: 'GOTHAM-ROUNDED-BOOK', sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.link-turno {
+    font-size: 1.3rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.link-turno:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+.rectangulo-rosa {
+    background: linear-gradient(0deg, #EF6491 0.01%, #EF6491 2.01%, #EA417B 50.01%, #EF6491 100%);
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    padding: 6px 10px;
+    border: none;
+}
+
+.h2-turnos1 {
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    text-align: center;
+    color: #D81A61;
+}
+
+.extraccion {
+    color: #D81A61;
+    text-transform: unset;
+    letter-spacing: 0rem;
+    font-family: 'GOTHAM-ROUNDED-MEDIUM', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.p-horarios-extraccion {
+    font-family: 'GOTHAM-ROUNDED-BOOK', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.tel-link {
+    text-decoration: none;
+    margin: 0 !important;
+}
+
+/* FOOTER */
+
+footer {
+   background: #D81A61;
+   padding: 4rem 0 0 0;
+}
+
+.contenedor-footer {
+    padding-bottom: 4rem;
+}
+
+.color {
+
+    color: #FFFFFF;
+
+}
+
+.contactos p, a {
+    font-size: 1.4rem;
+}
+
+.icon-footer {
+    background: #83201E;
+    padding: 9px 9px;
+    border-radius: 100%;
+    color: #FFFFFF;
+    margin-right: 6px;
+    font-size: 1.5rem;
+}
+
+.icon-footer2 {
+    background: #83201E;
+    padding: 9px 11px;
+    border-radius: 100%;
+    color: #FFFFFF;
+    margin-right: 6px;
+    font-size: 1.5rem;
+}
+
+.link-web-footer {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.link-web-footer:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.sub-footer {
+    background: #333;
+    color: #FFFFFF;
+    padding: 1rem 0 1rem 0;
+}
+
+.sub-footer-titulo {
+    font-size: 1.1rem !important;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.sub-footer-p {
+    font-size: 1rem !important;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.color-linea {
+    background: #83201E !important;
+}
+
+.redes-footer {
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+}
+
+.espacio-mq a:hover {
+    color: #83201E; 
+}
+
+.espacio-mq a:active {
+    color: #83201E; 
+}
+
+.espacio-mq a:focus {
+    color: #83201E; 
+}
+
+.texto p {
+    font-size: 1.6rem;
+}
+
+.whatsapp-footer p a {
+    text-decoration: none;
+}
+
+.whatsapp-footer p a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.telefono p a {
+    text-decoration: none;
+}
+
+.telefono p a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+.contactos p, a {
+    margin: 0 0;
+    color: #FFFFFF;
+}
+
+.sub-header .localizacion, .sub-header .telefono, .sub-header .whatsapp-header p, a {
+    margin: 0.2rem 0;
+}
+
+
+.localizacion, .telefono, .whatsapp-footer, .web p, a {
+    margin: 0.8rem 0;
+}
+
+/* SCROLL TO TOP */
+
+.back-to-top {
+    display: table;
+    border: 1px solid;
+    border-color: #D81A61;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 8px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.flecha-gotop {
+    color: #ed2a77;
+}
+
+/* Para modificar: 
+
+1) Que la flecha y el borde del botón back to top no se muestren cuando se carga la página y aparezcan recién cuando se hace el scroll y cuando llegan al footer, que cambien a color blanco, porque se pierden con el fondo. En la web de Creando, está ese efecto que el ir arriba aparece recién con el scroll. 
+2) En el carrusel, lo mismo, pero al revés jaja la flecha arranca blanca pero tiene que cambiar a fucsia cuando pasan los slides... porque se pierde con el fondo claro de las fotos.
+3) Lo que nos pidieron es que en la sección de turnos, toda la info abajo de los títulos esté oculta y que quede solo la foto y el título y ahí el usuario presione y se despliegue el resto.... habría que hacer eso.
+*/
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 2000px) {
+
+   
+
+
+}
+
+@media only screen and (max-width: 1800px) {
+
+  
+}
+
+@media only screen and (max-width: 1500px) {
+    
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+   .imagen-nosotros {
+        width: 25%;
+   }
+
+   .imagen-nosotros-valores {
+        width: 20%;
+   }
+
+   iframe {
+    width: 500px;
+    height: 300px;
+   }
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .nav-item:first-child {
+        margin-top: 8px;
+    }
+
+    .nav-link:hover, .nav-link:active, .nav-link:focus {
+
+        background: #83201E;
+        color: #FFFFFF;
+
+    }
+  
+    .sociales {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .margin-column {
+        margin-right: 0;
+        margin-bottom: 2.5rem;
+    }
+
+     .imagen-nosotros-valores {
+        width: 25%;
+   }
+
+   .pacientes {
+     padding: 2rem 0;
+
+   }
+
+   .carrusel {
+    padding: 0;
+   }
+
+    .turnos {
+     padding: 2rem 0;
+
+   }
+
+   .nosotros {
+    padding: 2rem 0;
+   }
+
+   .texto p {
+    font-size: 1.4rem;
+   }
+
+   .imagen-nosotros {
+    width: 20%;
+    }
+
+   .imagen-nosotros-valores {
+    width: 20%;
+    }
+
+    .h2-rosa {
+        font-size: 2.2rem;
+    }
+
+    .grid-valores p, .grid-valores ul li {
+        font-size: 1.3rem;
+    }
+
+   .espacio-hr {
+    margin-bottom: 2rem !important;
+   }
+
+   .profesionales {
+    margin-left: 0 !important;
+    margin-top: 1rem;
+   }
+
+   .align-h1 {
+    text-align: unset;
+    margin-left: 0;
+   }
+
+   .align-hr {
+    margin-left: 0;
+   }
+
+   .rectangulo-rosa {
+    margin-bottom: 10px;
+   }
+
+
+   .redes-footer {
+    font-size: 1.8rem;
+   }
+
+   .espacio-mq {
+    margin-top: 2rem !important;
+   }
+
+   .linea-bordo2 {
+    width: 15%;
+   }
+
+   .linea-bordo3 {
+    width: 12%;
+   }
+
+   iframe {
+    margin-top: 2rem;
+   }
+
+   .linea-btn {
+    position: relative;
+    display: inline-block !important;
+   }
+
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+     .nav-item:first-child {
+        margin-top: 8px;
+    }
+
+    .nav-link:hover, .nav-link:active, .nav-link:focus {
+
+        background: #83201E;
+        color: #FFFFFF;
+
+    }
+  
+    .sociales {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .margin-column {
+        margin-right: 0;
+        margin-bottom: 2.5rem;
+    }
+
+     .imagen-nosotros-valores {
+        width: 25%;
+   }
+
+   .pacientes {
+     padding: 4rem 0;
+
+   }
+
+    .turnos {
+     padding: 4rem 0;
+
+   }
+
+   .rectangulo-rosa {
+    margin-bottom: 10px;
+   }
+
+    .localizacion p, .telefono p, .whatsapp-header p, .web a {
+    font-size: 1.2rem !important;
+   }
+
+   .redes-footer {
+    font-size: 1.8rem;
+   }
+
+   .espacio-mq {
+    margin: 2rem 0 !important;
+   }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .nav-item:first-child {
+        margin-top: 8px;
+    }
+
+    .nav-link:hover, .nav-link:active, .nav-link:focus {
+
+        background: #83201E;
+        color: #FFFFFF;
+
+    }
+  
+    .sociales {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .margin-column {
+        margin-right: 0;
+        margin-bottom: 2.5rem;
+    }
+
+     .imagen-nosotros-valores {
+        width: 25%;
+   }
+
+   .pacientes {
+     padding: 2rem 0;
+
+   }
+
+    .turnos {
+     padding: 2rem 0;
+
+   }
+
+    .servicios {
+     padding: 2rem 0 6rem 0;
+
+   }
+
+   .rectangulo-rosa {
+    margin-bottom: 10px;
+   }
+
+    .localizacion p, .telefono p, .whatsapp-footer p, .web a {
+    font-size: 1.4rem;
+   }
+
+   .redes-footer {
+    font-size: 1.8rem;
+   }
+
+   .espacio-mq {
+    margin: 2rem 0 0 0 !important;
+   }
+
+   .carrusel {
+    padding: 0;
+   }
+
+   .nosotros {
+    padding: 2rem 0;
+   }
+
+   .h1 {
+    font-size: 1.8rem;
+   }
+
+   .texto p {
+    font-size: 1.4rem;
+   }
+
+   .grid-valores h2 {
+    font-size: 2rem;
+   }
+
+   .grid-valores p, .grid-valores ul li {
+
+    font-size: 1.3rem;
+   }
+
+   .linea-btn {
+    text-align: center;
+   }
+
+   .margen-boton-labo {
+    margin-right: 30px;
+   }
+
+   .gineco-express, .obras-sociales {
+    width: 40%;
+   }
+
+   .guia-paciente {
+    width: 50%;
+   }
+
+   .h2-pacientes-1, .h2-pacientes {
+    font-size: 1.5rem;
+   }
+
+   .telefono-fijo {
+    width: 40%;
+   }
+
+   .whatsapp {
+    width: 35%;
+   }
+
+   .webturnos {
+    width: 40%;
+   }
+
+   .h2-turnos, .h2-turnos1 {
+    font-size: 1.8rem;
+   }
+
+   .turnos-p {
+    font-size: 1.4rem;
+   }
+
+   .tel-p, .tel-p2 {
+    font-size: 2rem;
+   }
+
+   .h5-turnos {
+    font-size: 1.6rem;
+   }
+
+   .p-horarios, .p-horarios-extraccion {
+    font-size: 1.5rem;
+   }
+
+   .h2-turnos1 {
+    margin-top: 0;
+   }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+   
+    .nav-item:first-child {
+        margin-top: 8px;
+    }
+
+    .nav-link:hover, .nav-link:active, .nav-link:focus {
+
+        background: #83201E;
+        color: #FFFFFF;
+
+    }
+  
+    .sociales {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .margin-column {
+        margin-right: 0;
+        margin-bottom: 2.5rem;
+    }
+
+     .imagen-nosotros-valores {
+        width: 20%;
+   }
+
+   .pacientes {
+     padding: 4rem 0;
+
+   }
+
+    .turnos {
+     padding: 4rem 0;
+
+   }
+
+   .rectangulo-rosa {
+    margin-bottom: 10px;
+   }
+
+   .localizacion p, .telefono p, .whatsapp-footer p, .web a {
+    font-size: 1.4rem;
+   }
+
+   .redes-footer {
+    font-size: 1.8rem;
+   }
+
+   .linea-bordo4 {
+    width: 20%;
+   }
+
+   .contactos .nos {
+     margin-left: 24px;
+   }
+
+
+   .sub-header p {
+        display: none;
+   }
+   .icon-header {
+        font-size: 1.5rem;
+        margin: 0 1.5rem;
+   }
+
+    .icon-header2 {
+        font-size: 1.5rem;
+        margin: 0 1.5rem;
+   }
+
+   .navbar {
+    margin: 0 8px;
+   }
+
+   .carrusel {
+    padding-bottom: 2rem;
+   }
+
+   .nosotros {
+    padding:  16px 2rem 16px 16px;
+   }
+
+    .servicios {
+   padding:  16px 2rem 48px 16px;
+   }
+    .pacientes {
+     padding:  16px 2rem 16px 16px;
+   }
+
+   .turnos {
+     padding:   16px 2rem 16px 16px;
+   }
+
+   iframe {
+    width: 400px;
+   }
+
+   footer {
+    padding-top: 2rem;
+   }
+
+   .h2-turnos, .h2-turnos1 {
+    font-size: 1.6rem;
+    }
+
+    .telefono-fijo {
+        width: 30%;
+    }
+
+    .whatsapp {
+        width: 30%;
+    }
+
+    .webturnos {
+        width: 30%;
+    }
+
+    .guia-paciente {
+        width: 40%;
+    }
+
+    .gineco-express {
+        width: 30%;
+    }
+
+    .obras-sociales {
+        width: 30%;
+    }
+
+    .turnos-p {
+        font-size: 1.2rem;
+    }
+
+    .tel-p, .tel-p2 {
+        font-size: 1.7rem;
+    }
+
+    .h5-turnos {
+        font-size: 1.4rem;
+    }
+
+    .p-horarios, .p-horarios-extraccion {
+        font-size: 1.3rem;
+    }
+
+    .rectangulo-rosa {
+        font-size: 1.1rem;
+    }
+
+    .link {
+        font-size: 1.4rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  
+   iframe {
+    width: 350px;
+   }
+
+   .linea-bordo, .linea-bordo3 {
+    width: 20%;
+   }
+
+   .linea-bordo4 {
+    width: 30%;
+   }
+
+   .h1 {
+        font-size: 2rem;   
+   }
+
+   .redes-footer {
+    font-size: 2.3rem;
+   }
+
+   .espacio-mq {
+    margin-bottom: 0 !important;
+   }
+
+   .sub-footer-titulo {
+    font-size: 1rem;
+   }
+
+   .sub-footer-p {
+    font-size: 0.8rem;
+   }
+   
+}
+
+
+
+@media only screen and (max-width: 350px) {
+
+   iframe {
+    width: 300px;
+   }
+
+    .linea-bordo4 {
+    width: 30%;
+   }
+}
+
+@media only screen and (max-width: 300px) {
+
+   iframe {
+    width: 250px;
+   }
+
+}
+
+
+

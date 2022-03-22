@@ -1,0 +1,333 @@
+body {font-family: 'Poppins', sans-serif; color: #2d2d2e;}
+img {max-width: 100%; height: auto;} 
+h3 {font-size: 30px;}
+.encabezado {background: url(../imagenes/3-oscura.jpg); background-size: cover; background-repeat: no-repeat; padding: 230px 0px 230px 0px;}
+.encabezado h1 {text-shadow: 3px 3px 4px #444; color: white;}
+
+/* NAV */
+
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-default.scrolled{
+  background: #E2DC38;
+}
+
+.navbar-arriba {background: #E2DC38;}
+
+.navbar {padding-top: 15px; font-family: 'Barlow', sans-serif;}
+.nav-item {padding: 0px 10px;}
+.nav-link {color: #2d2d2e; font-size: 15px; text-transform: uppercase; font-weight: 600;}
+.nav-link:hover {color: #2d2d2e;}
+.navbar-text {font-size: 30px; text-align: center; font-weight: 200; text-transform: uppercase; font-weight: 600; color: #2d2d2e;}
+.icono-menu {color: #2d2d2e;}
+.navbar-text {font-family: 'Barlow', sans-serif;}
+
+.custom-underline {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.custom-underline:hover,
+.custom-underline:focus,
+.custom-underline:active {
+  text-decoration: none;
+}
+
+.custom-underline::after {
+  content: "";
+  position: absolute;
+}
+
+.box-c .custom-underline::after {
+  top: 75%;
+  height: 2px !important;
+  width: 40%;
+  left: 30%;
+  background-color: rgba(45, 45, 46, 0.6);
+    transition: 0.4s ease-out all .1s;
+}
+
+.box-c:hover .custom-underline::after {
+  width: 90%;
+  left: 5%;
+   transition: 0.5s ease all;
+}
+
+/* SECCIÓN DESCRIPCION */
+
+.seccion-descripcion {background: #2d2d2e; padding: 50px 0px 80px 0px; color: white;}
+.seccion-descripcion p {line-height: 2; font-size: 18px;}
+h1 {text-align: center; font-size: 70px; text-transform: uppercase; font-weight: 700;}
+h2 {font-size: 25px; font-weight: 400; text-transform: uppercase; padding-top: 30px; text-align: center;}
+.linea {border: 3px solid #E2DC38; width: 50%;}
+.linea-amarilla {background-image: url(../imagenes/linea-amarilla.svg); background-position: bottom; background-repeat: no-repeat; padding-bottom: 22px;}
+.linea-amarilla-corta {background-image: url(../imagenes/linea-amarilla-corta.svg); background-position: bottom; background-repeat: no-repeat; padding-bottom: 10px;}
+.col-md-6 p {padding-top: 18px;}
+.padding-col {padding: 0px 40px; text-align: center;}
+
+.texto_responsive:before{
+  content: attr(data-desktoptext);
+}
+
+.onda {position: absolute;}
+
+/* SECCIÓN CARDS CHICAS */
+
+.seccion-cards-chicas {background: #E2DC38; padding: 40px 0px 100px 0px;}
+.btn-amarillo {background: #E2DC38; border-radius: 10px; padding: 15px 60px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-size: 15px;}
+.btn-amarillo:hover {background: #2d2d2e; color: #fff;}
+.btn {border: none; color: #2d2d2e; font-family: 'Poppins', sans-serif;}
+.btn-lg {font-size: 20px;}
+
+
+.card-1{
+  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-2{
+   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-3{
+   background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+@media(max-width: 990px){
+  .card-servicios{
+    margin: 20px;
+  }
+} 
+
+
+.card-servicios {
+  position: relative;
+  min-width: 300px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  transition: .5s;
+  border: none;
+}
+.card-servicios:hover {
+  transform:scale(1.1);
+}
+
+.card-servicios:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: rgba(255, 255, 255, .1);
+  z-index: 1;
+  transform: skewY(-5deg) scale(1.5);
+}
+
+.card-servicios a {
+  display: block;
+  position: relative;
+  z-index: 2;
+  margin: 10px auto 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+/* SECCIÓN TRABAJOS */
+
+
+.seccion-trabajos {background: url(../imagenes/fondogris.jpg) repeat; padding: 100px 0px; color: white;}
+.tit-blanco {color: #2d2d2e; font-size: 40px; text-transform: uppercase; font-weight: 700; letter-spacing: 1px; background: #e2dc38;}
+.seccion-trabajos p {padding: 25px 0px 15px 0px; font-size: 18px; line-height: 2;}
+
+
+/* SECCIÓN AMARILLA */
+
+.seccion-amarilla {background: #E2DC38; padding: 30px 0px 100px 0px; color: white; font-size: 30px;}
+.seccion-amarilla h3 {text-transform: uppercase; font-weight: 600;}
+.seccion-amarilla p {font-size: 25px; font-weight: 200;}
+
+
+/* SECCIÓN SOBRE MI */
+
+.seccion-sobremi {padding: 100px 0px; background: #E2DC38;}
+.card-sobremi {
+	border: none;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+	border-radius: 15px;
+	padding: 60px 60px 60px 40px; 
+}
+
+.seccion-sobremi img {
+	width: 80%;
+	border-radius: 15px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+}
+
+.seccion-sobremi h4 {font-size: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; padding-bottom: 15px; text-align: center;}
+.seccion-sobremi p {font-size: 20px;}
+
+/* FOOTER */
+
+footer {background: #2d2d2e; padding: 40px 0px; color: white;}
+footer a {color: white; text-decoration: none; display: block; text-align: center;}
+footer a:hover {text-decoration: none; color: #e2dc38;}
+.margen {margin-right: 10px;}
+
+.scrollToTop{
+    padding: 0px 10px; 
+    text-align:center; 
+    color: #fff;
+    text-decoration: none;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    background: #e2dc38;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+    color: #2d2d2e;
+}
+
+
+/* PAGINA SERVICIOS */
+
+.card-iconos {border: none; box-shadow: 0 10px 15px rgba(0,0,0,0.3); border-radius: 15px; padding: 20px 0px; box-sizing: border-box; margin: 30px 30px;}
+.card img {display: block; margin: auto; width: 80%;}
+.estilo-iconos {font-size: 80px; color: #2d2d2e;}
+.card-iconos h5 {font-size: 25px; letter-spacing: 0.5px; color: #2d2d2e;}
+.separacion-nav {padding-top: 120px;}
+.seccion-sobremi h1 {padding: 40px 0px;}
+.fondo-servicios {background: url(../imagenes/fondogris.jpg) repeat; padding: 100px 0px; color: #2d2d2e;}
+.back-yellow {background: #e2dc38; color: #2d2d2e; font-weight: 600; font-size: 20px; padding: 0px 10px 10px 10px; display: inline-block;}
+.espacio-yellow {margin-top: 40px;}
+.espacio-arriba {display: inline-block; padding: 30px 0px;}
+.iconos-servicios {font-size: 35px; color: #2d2d2e;}
+
+
+/* PAGINA PORTFOLIO */
+
+.seccion-top {padding: 80px 0px 60px 0px;}
+.link-portfolio {text-decoration: none; color: #2d2d2e; font-weight: bold;}
+.link-portfolio:hover {text-decoration: none; color: #e2dc38;}
+
+/* PAGINA CONTACTO */
+
+.seccion-arriba h1 {padding-top: 20px;}
+.contacto h2 {text-align: center; padding-bottom: 10px;}
+.seccion-arriba {padding-top: 150px;}
+.contacto {padding: 20px 0px 100px 0px;}
+label {margin: 15px 0px 5px 0px;}
+label, input, textarea {display: block;}
+input, textarea {width: 100%; border: 0; border-radius: 5px; padding: 5px; box-sizing: border-box; box-shadow: 0 3px 10px rgba(0,0,0,0.3);}
+textarea {height: 150px;}
+
+.submit {border: 0; margin-top: 15px; background: #2d2d2e; color: white; border-radius: 10px; padding: 15px 60px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-size: 15px;}
+.submit:hover {color: #2d2d2e; background: white;}
+.error {color: red; font-size: 13px; margin: 0;}
+
+.bg-amarillo {background: #E2DC38;}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+  .seccion-descripcion h2 {line-height: 2em;}
+  .texto_responsive:before {content: attr(data-tablettext);}
+
+}
+
+@media screen and (max-width: 992px) {
+  .separacion {margin-top: 20px;}
+  .navbar-default {background: #E2DC38;}
+  .seccion-cards-chicas {padding: 80px 0px;}
+  .seccion-sobremi img {width: 90%;}
+  .seccion-sobremi {padding: 80px 0px;}
+  .seccion-sobremi h4 {font-size: 30px;}
+  .seccion-sobremi p {font-size: 16px;}
+  .card-sobremi {padding: 30px;}
+  .linea-amarilla {padding-bottom: 12px;}
+  .texto_responsive:before {content: attr(data-tablettext);}
+  h2 {font-size: 20px;}
+  .seccion-descripcion p {line-height: 2; font-size: 16px;}
+  .seccion-trabajos {padding: 70px 0px;}
+  .seccion-trabajos p {font-size: 16px;}
+  .tit-blanco {font-size: 25px;}
+  .btn-lg {font-size: 18px;}
+  .btn-amarillo {padding: 15px 45px;}
+  .seccion-amarilla {padding: 0px 0px 50px 0px;}
+  .seccion-amarilla h3 {text-transform: uppercase; font-weight: 600; font-size: 25px;}
+  .seccion-amarilla p {font-size: 20px; font-weight: 200;}
+}
+
+@media screen and (max-width: 768px) {
+  .encabezado {padding: 200px 0px 150px 0px;}
+  h1 {font-size: 50px;}
+  .seccion-sobremi img {width: 70%;}
+  .seccion-sobremi h4 {font-size: 27px; padding-top: 25px;}
+  .seccion-sobremi p {text-align: center;}
+  .seccion-top {padding: 30px 0px 50px 0px;}
+  .seccion-arriba {padding-top: 100px;}
+  .encabezado {background: url(../imagenes/3-medium.jpg); background-size: cover; background-repeat: no-repeat;}
+}
+
+@media screen and (max-width: 500px){
+  h1 {font-size: 30px;}
+  .size-mobile h1 {font-size: 40px;}
+  .texto_responsive:before {content: attr(data-phonetext);}
+  .contacto h2 {padding: 0px;}
+  .formulario {width: 80%; margin: 0 auto;}
+  .submit {padding: 15px 45px;}
+  .mediaq-servicios {padding: 0px 25px;}
+  .seccion-trabajos p {font-size: 14px;}
+  .tit-blanco {font-size: 20px;}
+  .btn-lg {font-size: 15px;}
+  .btn-amarillo {padding: 15px 35px;}
+  .seccion-trabajos {padding: 70px 30px;}
+  .seccion-sobremi img {width: 70%;}
+  .seccion-sobremi {padding: 80px 40px;}
+  .seccion-sobremi h4 {font-size: 25px;}
+  .seccion-sobremi p {font-size: 16px;}
+  .card-sobremi {padding: 40px 40px 30px 40px;}
+  .seccion-amarilla {padding: 0px 30px 50px 30px;}
+  .seccion-amarilla h3 {font-size: 20px;}
+  .seccion-amarilla p {font-size: 16px;}
+  .logo-chico {width: 40px;}
+  .encabezado .h1chico {font-size: 35px;}
+  .encabezado {background: url(../imagenes/3-small.jpg); background-size: cover; background-repeat: no-repeat;}
+
+}
+
+@media screen and (max-width: 400px) {
+  .encabezado .h1chico {font-size: 30px;}
+  .navbar-text {font-size: 25px;}
+  .seccion-sobremi {padding: 80px 25px;}
+}
+
+@media screen and (max-width: 350px) {
+  .encabezado .h1chico {font-size: 25px;}
+  .navbar-text {font-size: 20px;}
+  .card-servicios {min-width: 200px;}
+  
+}
+

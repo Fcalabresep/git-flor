@@ -1,0 +1,250 @@
+body {font-family: 'Lato', sans-serif; color: #2d2d2e;}
+img {max-width: 100%; height: auto;} 
+h3 {font-size: 30px;}
+p {padding: 5px 0px; margin-bottom: 3px;}
+h1, h2 {font-size: 30px; color: #de0c1b; display: inline-block; padding: 5px; margin-bottom: 10px;border-radius: 10px;}
+
+
+/* NAV */
+
+
+.navbar {padding-top: 15px;}
+.nav-item {padding: 10px;}
+.nav-link {color: white; font-size: 14px; font-weight: 400; background: #de0c1b; padding: 10px;}
+.nav-link:hover {background: #a00d1f; color: white;}
+.navbar-text {font-size: 17px; text-align: center; text-transform: uppercase; font-weight: 600; color: #2d2d2e;}
+.icono-menu {color: #2d2d2e;}
+
+.active {background: #a00d1f;}
+
+
+/* SECCIÓN SLIDER */
+
+.padding-slider {padding-top: 140px;}
+
+/* SECCIÓN CARDS */
+
+.seccion-cards {padding: 50px 0px; background: #e7e4e4;}  
+.card-turnos {
+  border: none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  border-radius: 15px;
+  padding: 60px 60px 40px 60px; 
+  margin: 80px auto;
+  width: 60%;
+}
+
+.seccion-cards h4 {font-size: 25px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin:0; text-align: center; padding-bottom: 0px;}
+.seccion-cards p {font-size: 20px;}
+.btn-rojo {background: #de0c1b; border-radius: 10px; padding: 15px 15px; letter-spacing: 0.5px; color: #fff; margin-top: 10px;}
+.btn-rojo:hover, .btn-rojo:active, .btn-rojo:focus {background: #a00d1f; color: #fff;}
+.btn-azul {background: #184d76; border-radius: 10px; padding: 15px 15px; letter-spacing: 0.5px; color: #fff; margin-top: 10px;}
+.btn-azul:hover, .btn-rojo:active, .btn-rojo:focus {background: #143b56; color: #fff;}
+
+.azul {color: #184d76; display: inline-block; padding: 5px; margin-bottom: 10px;}
+
+
+/* SECCIÓN QUIÉNES SOMOS */
+
+.seccion-quienessomos {background: #6996b5; padding: 100px 0px; text-align: center;}
+.padding-abajo {padding: 10px 0px 10px 0px; color: white; text-decoration-line: underline; }
+.color-texto {color: white;}
+
+
+/* SECCIÓN EL INSTITUTO */
+
+.titulo-instituto {text-align: center; padding-bottom: 30px;}
+.titulo-instituto h1 {background: none; color: #2d2d2e; text-transform: uppercase;}
+
+/* SECCIÓN STAFF MÉDICO */
+
+.titulo-staff {text-align: center; padding-bottom: 30px;}
+.titulo-staff h1 {background: none; color: #2d2d2e; text-transform: uppercase;}
+.titulo-staff h2 {font-size: 25px; padding: 25px 0px;}
+.padding-columna {padding: 0px 15px;}
+.titulo-staff h3 {font-size: 20px; padding-top: 10px;}
+.titulo-staff h4 {font-size: 22px; text-align: center; margin: 10px 0px 0px 0px; padding-top: 20px;}
+.marg-inf li {text-align: left;}
+.marg-inf ul {text-align: left; margin-bottom: 10px;}
+.marg-inferior {margin-bottom: 25px;}
+.titulo-staff .img-style img {width: 60%; border-radius: 70%;}
+.linea {border-bottom: 2px solid #de0c1b;}
+.espacio-subrayado {padding-top: 15px;}
+
+
+/* SECCIÓN SERVICIOS */
+
+.titulo-servicios {text-align: center; padding-bottom: 30px;}
+.titulo-servicios h1 {background: none; color: #2d2d2e; text-transform: uppercase;}
+.chequeos img {margin: 0 auto; }
+.chequeos {text-align: center;}
+.chequeos h2 {margin: 30px 0px 20px 0px;}
+.chequeos li {font-size: 17px; line-height: 30px; text-align: left;}
+.marg-inf {margin-bottom: 15px;}
+
+/* SECCIÓN CONTACTO */
+
+.background-secciones {padding: 150px 0px 60px 0px; background: #e7e4e4;}
+.titulo-contacto {text-align: center; padding-bottom: 30px;}
+.titulo-contacto h1 {background: none; color: #2d2d2e; text-transform: uppercase;}
+
+label {margin: 15px 0px 5px 0px;}
+label, input, textarea {display: block;}
+input, textarea {width: 100%; border: 0; border-radius: 5px; padding: 5px; box-sizing: border-box; box-shadow: 0 3px 10px rgba(0,0,0,0.3);}
+textarea {height: 150px;}
+
+.submit {border: 0; margin-top: 15px; background: #de0c1b; color: white; border-radius: 10px; padding: 15px 60px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-size: 15px;}
+.submit:hover {background: #a00d1f;}
+.error {color: red; font-size: 13px; margin: 0;}
+
+
+/* FOOTER */
+
+footer {background: #2d2d2e; padding: 40px 0px 20px 0px; color: white;}
+footer a {color: #e2dc38; text-decoration: none; display: block; text-align: center;}
+footer a:hover {text-decoration: none; color: #184d76;}
+.margen {margin-right: 5px;}
+.padding-col {padding: 50px 0px;}
+h4 {font-size: 25px; padding-bottom: 10px;}
+.parrafo-recetas {font-size: 20px;}
+.separacion-parrafo {margin-top: 15px;}
+.separacion-mapa {padding: 40px 0px;}
+.icono-fo { font-size: 28px; color: white; padding: 10px; background: #de0c1b; border-radius: 5px;}
+.icono-fo:hover { background: black }
+.creditos {font-size: 13px;}
+
+.scrollToTop{
+    padding: 0px 10px; 
+    text-align:center; 
+    color: #fff;
+    text-decoration: none;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    background: #de0c1b;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+    color: white;
+    background: #a00d1f;
+}
+
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:25px;
+  left:25px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+
+.whatsapp:hover {color: white; background: #036b19;}
+
+
+.img-afip{
+ max-width: 77px;
+  max-height: 25%;
+
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+  .navbar-text {font-size: 14px; padding: 0px; text-transform: uppercase; font-weight: 600; color: #2d2d2e;}
+  .nav-item {padding: 5px;}
+  
+}
+
+@media screen and (max-width: 992px) {
+  .nav-link {color: white; font-size: 14px; font-weight: 400; background: #de0c1b; padding: 10px; text-align: center;}
+  .nav-item {padding: 0;}
+  .separacion-mq {margin-top: 5px;}
+  .separacion {margin-top: 20px;}
+  .card-turnos {padding: 40px 40px 30px 40px;}
+  .seccion-cards p {font-size: 17px; line-height: 2;}
+  .seccion-cards h1 {font-size: 25px;}
+  .seccion-cards {padding: 20px 0px;}
+  .seccion-cards h2 {font-size: 25px;}
+  .seccion-cards h4 {font-size: 20px;}
+  .btn-rojo {padding: 10px 10px;}
+  .btn-azul {padding: 10px 10px;}
+  .flex-column-mapa {flex-direction: column;}
+  iframe {width: auto;}
+  footer {padding-top: 80px;}
+  .mq-flex {flex-direction: column; justify-content: center; align-items: center;}
+  .padding-columna {padding: 20px 10px;}
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .align-redessociales {flex-wrap: nowrap;}
+  .separacion-mapa {padding-top: 0px;}
+  .navbar {padding: 5px 0px; position: static;}
+  .padding-slider {padding-top: 20px;}
+  .background-secciones {padding: 30px 0px 40px 0px;}
+}
+
+@media screen and (max-width: 500px){
+	.background-secciones {padding: 30px 0px 40px 0px;}
+  .navbar-text {display: none;}
+  .padding-slider {padding-top: 10px;}
+  .logo-chico {width: 70%;}
+  .navbar {padding: 5px 10px 5px 10px; position: static;}
+  .navbar-brand {margin-right: 0;}
+  .card-turnos {width: 80%;}
+  .seccion-quienessomos {padding: 80px 40px;}
+  .padding-col {padding: 50px 20px;}
+  h4 {font-size: 25px;}
+  .parrafo-recetas {font-size: 17px;}
+  p {font-size: 15px;}
+  .creditos {font-size: 10px;}
+
+  .scrollToTop {font-size: 25px;}
+  .whatsapp {width: 40px; height: 40px; font-size: 25px;}
+  .whatsapp-icon {margin: 0;}
+
+  .formulario {width: 80%; margin: 0 auto;}
+  .submit {padding: 15px 45px;}
+
+  .chequeos h2 {font-size: 20px;}
+  .chequeos li {font-size: 15px; line-height: 22px;}
+  .chequeos img {width: 90%;}
+
+}
+
+@media screen and (max-width: 400px) {
+  .background-secciones {padding: 30px 0px 40px 0px;}
+  .navbar-text {display: none;}
+  .logo-chico {width: 60%;}
+  .navbar {padding: 5px 10px 5px 10px; position: static;}
+  .padding-slider {padding-top: 0px;}
+  .seccion-cards p {font-size: 14px;}
+  .seccion-cards h4 {font-size: 15px;}
+  .seccion-cards h1 {font-size: 20px;}
+  .seccion-cards h2 {font-size: 20px;}
+  .seccion-quienessomos {padding: 50px 20px;}
+  .card-turnos {margin: 40px auto;}
+  iframe {width: 80%;}
+
+  footer {padding-top: 40px;}
+}
+
+@media screen and (max-width: 350px) {
+  .navbar-text {font-size: 20px;}
+  .background-secciones {padding: 10px 0px 40px 0px;}
+  
+}
+
